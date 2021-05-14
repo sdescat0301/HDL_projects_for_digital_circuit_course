@@ -32,10 +32,10 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 entity MUX is
     port(
-         mux_in :in std_logic_vector(5 downto 0);
-         en :in std_logic;
-         mux_out :out std_logic_vector(5 downto 0)
-         );
+        mux_in :in std_logic_vector(5 downto 0);
+        en :in std_logic;
+        mux_out :out std_logic_vector(5 downto 0)
+    );
 end MUX;
 
 architecture Behavioral of MUX is

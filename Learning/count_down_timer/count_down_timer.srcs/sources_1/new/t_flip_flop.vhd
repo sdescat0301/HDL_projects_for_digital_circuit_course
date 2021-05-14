@@ -13,8 +13,6 @@ architecture rtl of t_flip_flop is
         process(t)
             begin
                 if rising_edge(t) then
-
-
                     temp <= not temp;
                 end if; 
             q <= temp;              

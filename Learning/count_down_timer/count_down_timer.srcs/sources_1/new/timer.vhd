@@ -1,15 +1,18 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
-entity decoder is port
+entity timer is port
 (
     clk, rst        : in    std_logic;
     switch_input    : in    std_logic_vector(5 downto 0);
+    seg_sel_d		: out 	std_logic_vector(3 downto 0);
     seg_output_d    : out   std_logic_vector(7 downto 0)
 );
-end decoder;
+end timer;
 
-architecture Behavioral of decoder is
+architecture Behavioral of timer is
+    signal seg_sel		: std_logic_vector(3 downto 0);
+    signal seg_sel_mem	: std_logic_vector(3 downto 0) := (others => '0');
     signal switch_in_d  : std_logic_vector(5 downto 0);
     signal switch_mem   : std_logic_vector(5 downto 0) := (others => '0');
     signal seg_output   : std_logic_vector(7 downto 0);
@@ -50,11 +53,25 @@ begin
     begin
         if count < "0100111000100" then		--2500
             output_sel <= '0';
+            seg_sel <= "1110";
         else
             output_sel <= '1';
+            seg_sel <= "1101";
         end if;
     end process;
 
+    process(clk, rst)
+    begin
+        if rst = '1' then
+            seg_sel_mem <= (others => '0');
+        else
+            if rising_edge(clk) then
+                seg_sel_mem <= seg_sel;
+            end if;
+        end if;
+    end process;
+    seg_sel_d <= seg_sel_mem;
+    
     process(switch_in_d, output_sel)
     begin
         if output_sel = '0' then

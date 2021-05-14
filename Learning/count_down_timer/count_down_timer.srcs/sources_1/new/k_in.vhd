@@ -45,7 +45,7 @@ end k_in;
 architecture Behavioral of k_in is
     signal ctup :std_logic;
     signal ctdn :std_logic;
-    signal k_out :std_logic_vector(5 downto 0);
+    signal k_out :std_logic_vector(5 downto 0) := "000000";
 begin
     process(Dt)
     begin

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 14 10:25:24 2021
+# Process ID: 16032
+# Current directory: E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/eight-bit_ripple_carry_adder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16748 E:\Xilinx_project\HDL_projects_for_digital_circuit_course\Learning\eight-bit_ripple_carry_adder\eight-bit_ripple_carry_adder.xpr
+# Log file: E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/eight-bit_ripple_carry_adder/vivado.log
+# Journal file: E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/eight-bit_ripple_carry_adder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/eight-bit_ripple_carry_adder/eight-bit_ripple_carry_adder.xpr
+update_compile_order -fileset sources_1
+launch_simulation

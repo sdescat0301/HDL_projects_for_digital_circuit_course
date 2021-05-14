@@ -4,15 +4,15 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL; 
 use IEEE.std_logic_unsigned.ALL; 
     
-entity FullAdder is  
+entity Full_Adder is  
 port (   
     a   :in std_logic_vector(5 downto 0); 
     b   :in std_logic_vector(5 downto 0); 
     sum :out std_logic_vector(5 downto 0)
 );  
-end FullAdder;  
+end Full_Adder;  
   
-architecture Behavioral of FullAdder is  
+architecture Behavioral of Full_Adder is  
   
 begin  
  sum <=   a + b;  
