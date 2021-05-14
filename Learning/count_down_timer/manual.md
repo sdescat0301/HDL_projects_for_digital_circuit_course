@@ -1,6 +1,6 @@
 # 使用文档
 
-![image-20210514114706659](C:%5CUsers%5Clzh%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20210514114706659.png)
+<img src="E:\Xilinx_project\HDL_projects_for_digital_circuit_course\Learning\count_down_timer\1.jpg" alt="1" style="zoom: 25%;" />
 
 上电后，按右边T17按键进行复位，此时数码管显示30。
 
