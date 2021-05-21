@@ -10,16 +10,16 @@ use IEEE.STD_LOGIC_1164.ALL;
 --library UNISIM;
 --use UNISIM.VComponents.all;
 
-entity adder is Port
+entity eight_bit_adder is Port
     (
         adder_in_a, adder_in_b :in std_logic_vector(7 downto 0);  --八位数输入
         cin :in std_logic;  --之前的进位输入
         cout :out std_logic;  --八位加法器的进位输出
         adder_out :out std_logic_vector(7 downto 0)  --八位加法器的输出
      );
-end adder;
+end eight_bit_adder;
 
-architecture Behavioral of adder is
+architecture Behavioral of eight_bit_adder is
     signal temp :std_logic_vector(7 downto 0);  --储存进位信息
     begin
         --第一位
