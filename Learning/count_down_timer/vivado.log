@@ -2,10 +2,10 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri May 14 08:37:23 2021
-# Process ID: 6780
+# Start of session at: Fri May 21 08:27:08 2021
+# Process ID: 1520
 # Current directory: E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/count_down_timer
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15624 E:\Xilinx_project\HDL_projects_for_digital_circuit_course\Learning\count_down_timer\count_down_timer.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14848 E:\Xilinx_project\HDL_projects_for_digital_circuit_course\Learning\count_down_timer\count_down_timer.xpr
 # Log file: E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/count_down_timer/vivado.log
 # Journal file: E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/count_down_timer\vivado.jou
 #-----------------------------------------------------------
@@ -13,14 +13,12 @@ start_gui
 open_project E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/count_down_timer/count_down_timer.xpr
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
 Current project path is 'E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/count_down_timer'
-CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/Xilinx_project/Basys3_Master.xdc'.
+INFO: [Project 1-313] Project file moved from 'D:/FPGA/project/count_down_timer' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
-open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1004.480 ; gain = 0.000
-close [ open E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/count_down_timer/count_down_timer.srcs/sources_1/new/CLK_giver.vhd w ]
-add_files E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/count_down_timer/count_down_timer.srcs/sources_1/new/CLK_giver.vhd
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:13 . Memory (MB): peak = 1005.953 ; gain = 0.000
 exit
-INFO: [Common 17-206] Exiting Vivado at Fri May 14 10:02:54 2021...
+INFO: [Common 17-206] Exiting Vivado at Fri May 21 08:39:52 2021...

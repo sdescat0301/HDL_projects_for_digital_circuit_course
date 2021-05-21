@@ -3,7 +3,7 @@
 -- Engineer: 
 -- 
 -- Create Date: 2021/05/14 08:58:34
--- Design Name: 
+-- Design Name: 8 bit adder
 -- Module Name: adder - Behavioral
 -- Project Name: 
 -- Target Devices: 
