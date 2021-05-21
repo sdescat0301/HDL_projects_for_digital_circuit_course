@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Fri May 14 11:46:04 2021
+| Date         : Thu May 20 20:52:19 2021
 | Host         : DESKTOP-A1R0C29 running 64-bit major release  (build 9200)
 | Command      : report_drc -file Segment_Display_drc_routed.rpt -pb Segment_Display_drc_routed.pb -rpx Segment_Display_drc_routed.rpx
 | Design       : Segment_Display
@@ -24,14 +24,13 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 6
+             Violations found: 3
 +-------------+----------+-------------------------------------------------------------+------------+
 | Rule        | Severity | Description                                                 | Violations |
 +-------------+----------+-------------------------------------------------------------+------------+
 | CFGBVS-1    | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties         | 1          |
-| PDRC-153    | Warning  | Gated clock check                                           | 2          |
-| PLCK-12     | Warning  | Clock Placer Checks                                         | 1          |
-| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 2          |
+| PDRC-153    | Warning  | Gated clock check                                           | 1          |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 1          |
 +-------------+----------+-------------------------------------------------------------+------------+
 
 2. REPORT DETAILS
@@ -51,40 +50,14 @@ Related violations: <none>
 
 PDRC-153#1 Warning
 Gated clock check  
-Net C6/clk__0 is a gated clock net sourced by a combinational pin C6/count2[0]_i_3/O, cell C6/count2[0]_i_3. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
-Related violations: <none>
-
-PDRC-153#2 Warning
-Gated clock check  
-Net C6/clk_slow is a gated clock net sourced by a combinational pin C6/q[5]_i_2/O, cell C6/q[5]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
-Related violations: <none>
-
-PLCK-12#1 Warning
-Clock Placer Checks  
-Poor placement for routing between an IO pin and BUFG. 
-Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
- This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
-
-	switch_in_IBUF[3]_inst (IBUF.O) is locked to U18
-	switch_in_IBUF_BUFG[3]_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y2
-
+Net C6/clk_slow is a gated clock net sourced by a combinational pin C6/q_mem[5]_i_2/O, cell C6/q_mem[5]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
 Related violations: <none>
 
 PLHOLDVIO-2#1 Warning
 Non-Optimal connections which could lead to hold violations  
-A LUT C6/count2[0]_i_3 is driving clock pin of 28 cells. This could lead to large hold time violations. Involved cells are:
-C6/count2_reg[0], C6/count2_reg[10], C6/count2_reg[11], C6/count2_reg[12],
-C6/count2_reg[13], C6/count2_reg[1], C6/count2_reg[2], C6/count2_reg[3],
-C6/count2_reg[4], C6/count2_reg[5], C6/count2_reg[6], C6/count2_reg[7],
-C6/count2_reg[8], C6/count2_reg[9], C6/count3_reg[0]
- (the first 15 of 28 listed)
-Related violations: <none>
-
-PLHOLDVIO-2#2 Warning
-Non-Optimal connections which could lead to hold violations  
-A LUT C6/q[5]_i_2 is driving clock pin of 6 cells. This could lead to large hold time violations. Involved cells are:
-C2/q_reg[0], C2/q_reg[1], C2/q_reg[2], C2/q_reg[3], C2/q_reg[4]
-C2/q_reg[5]
+A LUT C6/q_mem[5]_i_2 is driving clock pin of 6 cells. This could lead to large hold time violations. Involved cells are:
+C2/q_mem_reg[0], C2/q_mem_reg[1], C2/q_mem_reg[2], C2/q_mem_reg[3],
+C2/q_mem_reg[4], C2/q_mem_reg[5]
 Related violations: <none>
 
 

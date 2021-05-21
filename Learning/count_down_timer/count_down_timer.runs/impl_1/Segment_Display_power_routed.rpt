@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date             : Fri May 14 11:46:05 2021
+| Date             : Thu May 20 20:52:20 2021
 | Host             : DESKTOP-A1R0C29 running 64-bit major release  (build 9200)
 | Command          : report_power -file Segment_Display_power_routed.rpt -pb Segment_Display_power_summary_routed.pb -rpx Segment_Display_power_routed.rpx
 | Design           : Segment_Display
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.181        |
+| Total On-Chip Power (W)  | 0.180        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.109        |
+| Dynamic (W)              | 0.108        |
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 84.1         |
@@ -52,18 +52,17 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Clocks         |    <0.001 |        8 |       --- |             --- |
-| Slice Logic    |    <0.001 |      188 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       73 |     20800 |            0.35 |
-|   CARRY4       |    <0.001 |       14 |      8150 |            0.17 |
-|   Register     |    <0.001 |       76 |     41600 |            0.18 |
-|   BUFG         |    <0.001 |        1 |        32 |            3.13 |
+| Clocks         |    <0.001 |        9 |       --- |             --- |
+| Slice Logic    |    <0.001 |      193 |       --- |             --- |
+|   LUT as Logic |    <0.001 |       69 |     20800 |            0.33 |
+|   CARRY4       |    <0.001 |       18 |      8150 |            0.22 |
+|   Register     |    <0.001 |       87 |     41600 |            0.21 |
 |   Others       |     0.000 |       11 |       --- |             --- |
-| Signals        |    <0.001 |      138 |       --- |             --- |
+| Signals        |    <0.001 |      150 |       --- |             --- |
 | MMCM           |     0.106 |        1 |         5 |           20.00 |
-| I/O            |     0.002 |       17 |       106 |           16.04 |
+| I/O            |     0.001 |       17 |       106 |           16.04 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.181 |          |           |                 |
+| Total          |     0.180 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -73,7 +72,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.011 |       0.001 |      0.010 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.010 |       0.001 |      0.010 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.072 |       0.059 |      0.013 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -96,7 +95,7 @@ Table of Contents
 | User Input Data             | Confidence | Details                                                | Action                                                                                                             |
 +-----------------------------+------------+--------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------+
 | Design implementation state | High       | Design is routed                                       |                                                                                                                    |
-| Clock nodes activity        | Low        | User specified less than 75% of clocks                 | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
+| Clock nodes activity        | Medium     | More than 5% of clocks are missing user specification  | Provide missing clock activity with a constraint file, simulation results or by editing the "By Clock Domain" view |
 | I/O nodes activity          | Low        | More than 75% of inputs are missing user specification | Provide missing input activity with simulation results or by editing the "By Resource Type -> I/Os" view           |
 | Internal nodes activity     | Medium     | User specified less than 25% of internal nodes         | Provide missing internal nodes activity with simulation results or by editing the "By Resource Type" views         |
 | Device models               | High       | Device models are Production                           |                                                                                                                    |
@@ -126,16 +125,18 @@ Table of Contents
 2.2 Clock Constraints
 ---------------------
 
-+----------------------+----------------------------+-----------------+
-| Clock                | Domain                     | Constraint (ns) |
-+----------------------+----------------------------+-----------------+
-| clk                  | clk                        |            10.0 |
-| clk_out1_clk_wiz_0   | CO/inst/clk_out1_clk_wiz_0 |           100.0 |
-| clk_out1_clk_wiz_0_1 | CO/inst/clk_out1_clk_wiz_0 |           100.0 |
-| clkfbout_clk_wiz_0   | CO/inst/clkfbout_clk_wiz_0 |            20.0 |
-| clkfbout_clk_wiz_0_1 | CO/inst/clkfbout_clk_wiz_0 |            20.0 |
-| sys_clk_pin          | clk                        |            10.0 |
-+----------------------+----------------------------+-----------------+
++--------------------+--------------------------+-----------------+
+| Clock              | Domain                   | Constraint (ns) |
++--------------------+--------------------------+-----------------+
+| clk                | clk                      |            10.0 |
+| clk_out1_clk_wiz   | CO/inst/clk_out1         |           100.0 |
+| clk_out1_clk_wiz   | CO/inst/clk_out1_clk_wiz |           100.0 |
+| clk_out1_clk_wiz_1 | CO/inst/clk_out1         |           100.0 |
+| clk_out1_clk_wiz_1 | CO/inst/clk_out1_clk_wiz |           100.0 |
+| clkfbout_clk_wiz   | CO/inst/clkfbout_clk_wiz |            20.0 |
+| clkfbout_clk_wiz_1 | CO/inst/clkfbout_clk_wiz |            20.0 |
+| sys_clk_pin        | clk                      |            10.0 |
++--------------------+--------------------------+-----------------+
 
 
 3. Detailed Reports
@@ -147,7 +148,7 @@ Table of Contents
 +-----------------+-----------+
 | Name            | Power (W) |
 +-----------------+-----------+
-| Segment_Display |     0.109 |
+| Segment_Display |     0.108 |
 |   CO            |     0.107 |
 |     inst        |     0.107 |
 +-----------------+-----------+

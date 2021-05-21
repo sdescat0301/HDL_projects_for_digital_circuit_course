@@ -15,5 +15,5 @@ end Full_Adder;
 architecture Behavioral of Full_Adder is  
   
 begin  
- sum <=   a + b;  
+    sum <= a + b;
 end Behavioral;  

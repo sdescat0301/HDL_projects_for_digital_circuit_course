@@ -20,7 +20,7 @@ entity Segment_Display is port
 end Segment_Display;
 
 architecture Behavioral of Segment_Display is
-    component clk_wiz_0 is port
+    component clk_wiz is port
     (
         clk_in1 : in std_logic;
         clk_out1 : out std_logic
@@ -52,6 +52,7 @@ architecture Behavioral of Segment_Display is
     component t_flip_flop is port
     (
          t :in std_logic;
+         clk_t :in std_logic;
          q :out std_logic
     );
     end component;
@@ -72,7 +73,7 @@ architecture Behavioral of Segment_Display is
     end component;
     component CLK_giver is port
     (
-        clk_in : in std_logic;
+        clk : in std_logic;
         dec,inc,rst,T_signal : in std_logic;
         clk_out : out std_logic
     );
@@ -94,7 +95,7 @@ begin
     inc_o <= switch_in(1);
     dec_o <= switch_in(2);
     stop_o <= switch_in(3);
-    CO:clk_wiz_0 port map
+    CO:clk_wiz port map
     (
         clk_in1 => clk,
         clk_out1 => clk_10Mhz
@@ -123,7 +124,8 @@ begin
     C4:t_flip_flop port map
     (
         t => stop_o,
-        q => t_sig
+        q => t_sig,
+        clk_t => clk_10Mhz
     );
     C5:MUX port map
     (
@@ -133,7 +135,7 @@ begin
     );
     C6:CLK_giver port map
     (
-        clk_in => clk_10Mhz,
+        clk => clk_10Mhz,
         dec => dec_o,
         inc => inc_o,
         rst => rst_o,

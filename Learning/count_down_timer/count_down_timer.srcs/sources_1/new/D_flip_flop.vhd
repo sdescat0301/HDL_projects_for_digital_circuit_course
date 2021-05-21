@@ -9,15 +9,17 @@ ENTITY d_flip_flop is
 end d_flip_flop;
 
 architecture rtl of d_flip_flop is
+signal q_mem :std_logic_vector(5 downto 0);
     begin
         process(clk, reset)
             begin
                 if rising_edge(clk) then
                     if reset = '1' then
-                        q <= (others => '0');
+                        q_mem <= (others => '0');
                     else
-                        q <= d;
+                        q_mem <= d;
                     end if;
                 end if;
         end process;
+        q<=q_mem;
 end rtl; 

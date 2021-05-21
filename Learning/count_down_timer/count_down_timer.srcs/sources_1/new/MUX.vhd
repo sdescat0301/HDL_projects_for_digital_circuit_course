@@ -40,12 +40,6 @@ end MUX;
 
 architecture Behavioral of MUX is
 begin
-    process(en)
-    begin
-        if en = '1' then
-            mux_out<="011110";
-        else
-            mux_out<=mux_in;
-        end if;
-    end process;
+    mux_out<="011110" when en='1' else
+    mux_in;
 end Behavioral;

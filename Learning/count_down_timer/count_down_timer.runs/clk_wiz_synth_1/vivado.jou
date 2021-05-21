@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Thu May 20 00:58:46 2021
+# Process ID: 12032
+# Current directory: D:/FPGA/project/count_down_timer/count_down_timer.runs/clk_wiz_synth_1
+# Command line: vivado.exe -log clk_wiz.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_wiz.tcl
+# Log file: D:/FPGA/project/count_down_timer/count_down_timer.runs/clk_wiz_synth_1/clk_wiz.vds
+# Journal file: D:/FPGA/project/count_down_timer/count_down_timer.runs/clk_wiz_synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk_wiz.tcl -notrace

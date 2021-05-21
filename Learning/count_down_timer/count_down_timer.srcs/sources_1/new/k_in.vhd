@@ -47,23 +47,14 @@ architecture Behavioral of k_in is
     signal ctdn :std_logic;
     signal k_out :std_logic_vector(5 downto 0) := "000000";
 begin
-    process(Dt)
-    begin
-        if Dt>"111011" then
-            ctup<='1';
-        else
-            ctup<='0';
-        end if;
-        if Dt="000000" then
-            ctdn<='1';
-        else
-            ctdn<='0';
-        end if;
-    end process;
-    process(ctup,ctdn,dec_in,inc_in)
+    ctup<='0' when Dt<"111100" else
+    '1';
+    ctdn<='0' when Dt>"000000" else
+    '1';
+    process(ctup,ctdn,dec_in,inc_in,k_out)
     begin
         if dec_in='1' then
-            if ctup='0' then
+            if ctdn='0' then
                 k_out<="111111";
             else k_out<="000000";
             end if;

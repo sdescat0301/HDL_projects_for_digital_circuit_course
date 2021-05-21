@@ -99,10 +99,10 @@ read_vhdl -library xil_defaultlib {
   D:/FPGA/project/count_down_timer/count_down_timer.srcs/sources_1/new/k_in.vhd
   D:/FPGA/project/count_down_timer/count_down_timer.srcs/sources_1/new/CLK_giver.vhd
 }
-read_ip -quiet D:/FPGA/project/count_down_timer/count_down_timer.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
-set_property used_in_implementation false [get_files -all d:/FPGA/project/count_down_timer/count_down_timer.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA/project/count_down_timer/count_down_timer.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
-set_property used_in_implementation false [get_files -all d:/FPGA/project/count_down_timer/count_down_timer.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
+read_ip -quiet D:/FPGA/project/count_down_timer/count_down_timer.srcs/sources_1/ip/clk_wiz/clk_wiz.xci
+set_property used_in_implementation false [get_files -all d:/FPGA/project/count_down_timer/count_down_timer.gen/sources_1/ip/clk_wiz/clk_wiz_board.xdc]
+set_property used_in_implementation false [get_files -all d:/FPGA/project/count_down_timer/count_down_timer.gen/sources_1/ip/clk_wiz/clk_wiz.xdc]
+set_property used_in_implementation false [get_files -all d:/FPGA/project/count_down_timer/count_down_timer.gen/sources_1/ip/clk_wiz/clk_wiz_ooc.xdc]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being

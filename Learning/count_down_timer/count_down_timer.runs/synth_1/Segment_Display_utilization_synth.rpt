@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Fri May 14 11:45:03 2021
+| Date         : Thu May 20 20:50:22 2021
 | Host         : DESKTOP-A1R0C29 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Segment_Display_utilization_synth.rpt -pb Segment_Display_utilization_synth.pb
 | Design       : Segment_Display
@@ -30,11 +30,11 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |   73 |     0 |     20800 |  0.35 |
-|   LUT as Logic          |   73 |     0 |     20800 |  0.35 |
+| Slice LUTs*             |   69 |     0 |     20800 |  0.33 |
+|   LUT as Logic          |   69 |     0 |     20800 |  0.33 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
-| Slice Registers         |   74 |     0 |     41600 |  0.18 |
-|   Register as Flip Flop |   74 |     0 |     41600 |  0.18 |
+| Slice Registers         |   87 |     0 |     41600 |  0.21 |
+|   Register as Flip Flop |   87 |     0 |     41600 |  0.21 |
 |   Register as Latch     |    0 |     0 |     41600 |  0.00 |
 | F7 Muxes                |    0 |     0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |      8150 |  0.00 |
@@ -57,7 +57,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 0     |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 74    |          Yes |       Reset |            - |
+| 87    |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -115,7 +115,7 @@ Table of Contents
 +------------+------+-------+-----------+-------+
 |  Site Type | Used | Fixed | Available | Util% |
 +------------+------+-------+-----------+-------+
-| BUFGCTRL   |    1 |     0 |        32 |  3.13 |
+| BUFGCTRL   |    0 |     0 |        32 |  0.00 |
 | BUFIO      |    0 |     0 |        20 |  0.00 |
 | MMCME2_ADV |    0 |     0 |         5 |  0.00 |
 | PLLE2_ADV  |    0 |     0 |         5 |  0.00 |
@@ -149,28 +149,27 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |   74 |        Flop & Latch |
-| LUT6     |   32 |                 LUT |
-| LUT5     |   20 |                 LUT |
-| CARRY4   |   14 |          CarryLogic |
+| FDRE     |   87 |        Flop & Latch |
+| LUT6     |   35 |                 LUT |
+| CARRY4   |   18 |          CarryLogic |
+| LUT4     |   15 |                 LUT |
 | OBUF     |   12 |                  IO |
-| LUT4     |   11 |                 LUT |
-| LUT2     |   10 |                 LUT |
-| LUT3     |    8 |                 LUT |
-| LUT1     |    5 |                 LUT |
+| LUT5     |    9 |                 LUT |
+| LUT2     |    8 |                 LUT |
+| LUT3     |    7 |                 LUT |
 | IBUF     |    4 |                  IO |
-| BUFG     |    1 |               Clock |
+| LUT1     |    3 |                 LUT |
 +----------+------+---------------------+
 
 
 8. Black Boxes
 --------------
 
-+-----------+------+
-|  Ref Name | Used |
-+-----------+------+
-| clk_wiz_0 |    1 |
-+-----------+------+
++----------+------+
+| Ref Name | Used |
++----------+------+
+| clk_wiz  |    1 |
++----------+------+
 
 
 9. Instantiated Netlists

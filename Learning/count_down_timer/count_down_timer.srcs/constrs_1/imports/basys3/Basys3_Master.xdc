@@ -4,9 +4,10 @@
 ## - rename the used ports (in each line, after get_ports) according to the top level signal names in the project
 
 ## Clock signal
+set_property PACKAGE_PIN W5 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
 create_clock -period 10.000 -name sys_clk_pin -waveform {0.000 5.000} -add [get_ports clk]
-create_generated_clock -name clk_10MHz -source [get_ports clk] -divide_by 10 -add -master_clock sys_clk_pin [get_pins C0/clk_out1]
-set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets {switch_in_IBUF[3]}]
+create_generated_clock -name clk_10MHz -source [get_ports clk] -divide_by 10 -add -master_clock sys_clk_pin [get_pins CO/clk_out1]
 
 ## Switches
 #set_property PACKAGE_PIN V17 [get_ports {sw[0]}]

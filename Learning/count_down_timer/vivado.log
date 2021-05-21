@@ -19,9 +19,7 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2020.2/data/ip'.
-open_projecexit
-INFO: [Common 17-206] Exiting Vivado at Fri May 14 15:33:13 2021...
-04.480 ; gain = 0.000
+open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:00:11 . Memory (MB): peak = 1004.480 ; gain = 0.000
 close [ open E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/count_down_timer/count_down_timer.srcs/sources_1/new/CLK_giver.vhd w ]
 add_files E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/count_down_timer/count_down_timer.srcs/sources_1/new/CLK_giver.vhd
 exit
