@@ -1,0 +1,1 @@
+-wto "e0f357a28fc343679e5fc3f653d4934b" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "Segment_Display_behav" "xil_defaultlib.Segment_Display" -log "elaborate.log" 
