@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/ALU/ALU.srcs/constrs_1/imports/new/constrs.xdc rfile:../../../ALU.srcs/constrs_1/imports/new/constrs.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN W5 [get_ports clk]
+set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN R2 [get_ports rst]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN U16 [get_ports test]

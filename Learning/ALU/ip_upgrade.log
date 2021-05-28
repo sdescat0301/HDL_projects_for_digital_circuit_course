@@ -1,0 +1,79 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 28 08:59:08 2021
+| Host         : DESKTOP-OVFJI75 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'testdata_mem'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of testdata_mem (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 1) to (Rev. 4)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 28 08:59:05 2021
+| Host         : DESKTOP-OVFJI75 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'ila'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of ila (xilinx.com:ip:ila:6.2) from (Rev. 5) to (Rev. 11)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 28 08:59:00 2021
+| Host         : DESKTOP-OVFJI75 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'clk_wiz'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of clk_wiz from xilinx.com:ip:clk_wiz:5.4 (Rev. 3) to xilinx.com:ip:clk_wiz:6.0 (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri May 28 08:58:54 2021
+| Host         : DESKTOP-OVFJI75 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a35tcpg236-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'answer_mem'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of answer_mem (xilinx.com:ip:blk_mem_gen:8.4) from (Rev. 1) to (Rev. 4)
+

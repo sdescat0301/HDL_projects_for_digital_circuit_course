@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1622164260">
+  <File Type="PA-TCL" Name="TOP.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="TOP_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="TOP_reports.tcl"/>
+  <File Type="RDS-RDS" Name="TOP.vds"/>
+  <File Type="RDS-UTIL" Name="TOP_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="TOP_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="TOP.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="TOP_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="TOP_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/ALU_v1.1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="G:/ALU_v1.1/ALU_v1.1.srcs/sources_1/new/ALU_v1.1.vhd"/>
+        <Attr Name="ImportTime" Val="1622125375"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/eight_bit_adder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="G:/ALU_v1.1/ALU_v1.1.srcs/sources_1/imports/new/eight_bit_adder.vhd"/>
+        <Attr Name="ImportTime" Val="1622124974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/four_to_one_MUX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="G:/ALU_v1.1/ALU_v1.1.srcs/sources_1/imports/new/four_to_one_MUX.vhd"/>
+        <Attr Name="ImportTime" Val="1622125414"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/two_to_one_MUX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="G:/ALU_v1.1/ALU_v1.1.srcs/sources_1/imports/new/two_to_one_MUX.vhd"/>
+        <Attr Name="ImportTime" Val="1621560677"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/TOP.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../2018.3/ALU/ALU.srcs/sources_1/new/TOP.vhd"/>
+        <Attr Name="ImportTime" Val="1622025764"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/testdata.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/answer.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TOP"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/constrs.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../2018.3/ALU/ALU.srcs/constrs_1/new/constrs.xdc"/>
+        <Attr Name="ImportTime" Val="1622030972"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="testdata_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="answer_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="clk_wiz"/>
+  <BlockFileSet Type="BlockSrcs" Name="ila"/>
+</GenRun>

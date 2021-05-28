@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="TOP_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="TOP_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2244951318fs"></ZoomStartTime>
+      <ZoomEndTime time="2324451319fs"></ZoomEndTime>
+      <Cursor1Time time="2181666000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="183"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/TOP_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/clk_150Mhz" type="logic">
+      <obj_property name="ElementShortName">clk_150Mhz</obj_property>
+      <obj_property name="ObjectShortName">clk_150Mhz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/test" type="logic">
+      <obj_property name="ElementShortName">test</obj_property>
+      <obj_property name="ObjectShortName">test</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/rst_d1" type="logic">
+      <obj_property name="ElementShortName">rst_d1</obj_property>
+      <obj_property name="ObjectShortName">rst_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/rst_sync" type="logic">
+      <obj_property name="ElementShortName">rst_sync</obj_property>
+      <obj_property name="ObjectShortName">rst_sync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/valid" type="logic">
+      <obj_property name="ElementShortName">valid</obj_property>
+      <obj_property name="ObjectShortName">valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/valid_d1" type="logic">
+      <obj_property name="ElementShortName">valid_d1</obj_property>
+      <obj_property name="ObjectShortName">valid_d1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/addr" type="array">
+      <obj_property name="ElementShortName">addr[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/cmd" type="array">
+      <obj_property name="ElementShortName">cmd[19:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/answer_out" type="array">
+      <obj_property name="ElementShortName">answer_out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">answer_out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/ena" type="logic">
+      <obj_property name="ElementShortName">ena</obj_property>
+      <obj_property name="ObjectShortName">ena</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/Fin" type="array">
+      <obj_property name="ElementShortName">Fin[2:0]</obj_property>
+      <obj_property name="ObjectShortName">Fin[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/Ain" type="array">
+      <obj_property name="ElementShortName">Ain[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Ain[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/Bin" type="array">
+      <obj_property name="ElementShortName">Bin[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Bin[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/c_out" type="logic">
+      <obj_property name="ElementShortName">c_out</obj_property>
+      <obj_property name="ObjectShortName">c_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/ALU_ins/Ytemp" type="array">
+      <obj_property name="ElementShortName">Ytemp[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Ytemp[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/c_s" type="logic">
+      <obj_property name="ElementShortName">c_s</obj_property>
+      <obj_property name="ObjectShortName">c_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/y_out" type="array">
+      <obj_property name="ElementShortName">y_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">y_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/y_s" type="array">
+      <obj_property name="ElementShortName">y_s[7:0]</obj_property>
+      <obj_property name="ObjectShortName">y_s[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TOP_tb/dut/err" type="logic">
+      <obj_property name="ElementShortName">err</obj_property>
+      <obj_property name="ObjectShortName">err</obj_property>
+   </wvobject>
+</wave_config>

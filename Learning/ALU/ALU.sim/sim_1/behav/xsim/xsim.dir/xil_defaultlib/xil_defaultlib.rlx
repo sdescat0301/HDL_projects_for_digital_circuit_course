@@ -1,0 +1,14 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+D:/Alinx_project/2017.4/ALU/ALU.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+D:/Alinx_project/2017.4/ALU/ALU.srcs/sim_1/imports/new/ALU_tb.vhd,1621858390,vhdl,,,,alu_tb,,,,,,,,
+D:/Alinx_project/2017.4/ALU/ALU.srcs/sim_1/imports/new/TOP_tb.vhd,1621860770,vhdl,,,,top_tb,,,,,,,,
+D:/Alinx_project/2017.4/ALU/ALU.srcs/sources_1/imports/new/ALU.vhd,1622047416,vhdl,,,,alu,,,,,,,,
+D:/Alinx_project/2017.4/ALU/ALU.srcs/sources_1/imports/new/TOP.vhd,1622037957,vhdl,,,,top,,,,,,,,
+D:/Alinx_project/2017.4/ALU/ALU.srcs/sources_1/ip/answer_mem/sim/answer_mem.v,1622084682,verilog,,D:/Alinx_project/2017.4/ALU/ALU.srcs/sources_1/ip/testdata_mem/sim/testdata_mem.v,,answer_mem,,,../../../../ALU.srcs/sources_1/ip/clk_wiz,,,,,
+D:/Alinx_project/2017.4/ALU/ALU.srcs/sources_1/ip/clk_wiz/clk_wiz.v,1622033965,verilog,,,,clk_wiz,,,../../../../ALU.srcs/sources_1/ip/clk_wiz,,,,,
+D:/Alinx_project/2017.4/ALU/ALU.srcs/sources_1/ip/clk_wiz/clk_wiz_clk_wiz.v,1622033965,verilog,,D:/Alinx_project/2017.4/ALU/ALU.srcs/sources_1/ip/clk_wiz/clk_wiz.v,,clk_wiz_clk_wiz,,,../../../../ALU.srcs/sources_1/ip/clk_wiz,,,,,
+D:/Alinx_project/2017.4/ALU/ALU.srcs/sources_1/ip/ila/sim/ila.vhd,1622034164,vhdl,,,,ila,,,,,,,,
+D:/Alinx_project/2017.4/ALU/ALU.srcs/sources_1/ip/testdata_mem/sim/testdata_mem.v,1622033832,verilog,,D:/Alinx_project/2017.4/ALU/ALU.srcs/sources_1/ip/clk_wiz/clk_wiz_clk_wiz.v,,testdata_mem,,,../../../../ALU.srcs/sources_1/ip/clk_wiz,,,,,
