@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU/MCU.srcs/sim_1/new/ALU_tb.vhd,1623377910,vhdl,,,,alu_tb,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU/MCU.srcs/sources_1/new/ALU.vhd,1623377459,vhdl,,,,alu,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU/MCU.srcs/sources_1/new/adder.vhd,1623377033,vhdl,,,,adder,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU/MCU.srcs/sources_1/new/four_to_one_MUX.vhd,1623377232,vhdl,,,,four_to_one_mux,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU/MCU.srcs/sources_1/new/two_to_one_MUX.vhd,1623377196,vhdl,,,,two_to_one_mux,,,,,,,,
