@@ -1,0 +1,22 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../mcu_1.gen/sources_1/ip/ila_0/sim/ila_0.vhd" \
+"../../../../mcu_1.gen/sources_1/ip/dmem/dmem_sim_netlist.vhdl" \
+"../../../../mcu_1.gen/sources_1/ip/imem/imem_sim_netlist.vhdl" \
+"../../../../mcu_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.vhdl" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/new/MIPS_datapath.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/sources_1/imports/new/MIPS_processor.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/new/adder.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/new/alu.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/sources_1/imports/new/alu_controller_decoder.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/sources_1/imports/new/controller.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/new/flip_flop.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/sources_1/imports/new/main_control_decoder.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/new/mux2.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/new/reg_file.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/new/signex.vhd" \
+"../../../../mcu_1.srcs/sources_1/imports/imports/sources_1/imports/new/top.vhd" \
+"../../../../mcu_1.srcs/sim_1/imports/new/top_tb.vhd" \
+
+# Do not sort compile order
+nosort

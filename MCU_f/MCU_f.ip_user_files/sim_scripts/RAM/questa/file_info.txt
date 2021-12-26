@@ -1,0 +1,4 @@
+xpm_cdc.sv,systemverilog,xpm,D:/Program_files/Vivado/2020.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv,
+xpm_VCOMP.vhd,vhdl,xpm,D:/Program_files/Vivado/2020.2/data/ip/xpm/xpm_VCOMP.vhd,
+RAM_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../MCU_f.gen/sources_1/ip/RAM/RAM_sim_netlist.vhdl,
+glbl.v,Verilog,xil_defaultlib,glbl.v

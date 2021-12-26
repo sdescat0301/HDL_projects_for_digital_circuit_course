@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../mcu_1.gen/sources_1/ip/imem/imem_sim_netlist.vhdl" \
+
+nosort

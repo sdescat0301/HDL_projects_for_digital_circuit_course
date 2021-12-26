@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../MCU_f.gen/sources_1/ip/ila/sim/ila.vhd" \
+
+nosort

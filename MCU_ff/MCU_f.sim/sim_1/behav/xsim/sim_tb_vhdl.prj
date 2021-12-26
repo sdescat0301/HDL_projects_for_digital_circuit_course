@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MCU_f.gen/sources_1/ip/clk_wiz/clk_wiz_sim_netlist.vhdl" \
+"../../../../MCU_f.gen/sources_1/ip/RAM/RAM_sim_netlist.vhdl" \
+"../../../../MCU_f.gen/sources_1/ip/ROM/ROM_sim_netlist.vhdl" \
+"../../../../MCU_f.gen/sources_1/ip/ila/sim/ila.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/adder_simple.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/alu.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/aludec.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/controller.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/datapath.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/flopr.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/maindec.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/mips.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/mux2.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/regfile.vhd" \
+"../../../../MCU_f.srcs/sources_1/imports/new/signext.vhd" \
+"../../../../MCU_f.srcs/sim_1/new/sim_tb.vhd" \
+
+# Do not sort compile order
+nosort

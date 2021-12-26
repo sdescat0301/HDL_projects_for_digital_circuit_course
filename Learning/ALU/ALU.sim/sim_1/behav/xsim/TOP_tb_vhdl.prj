@@ -1,8 +1,10 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
-"../../../../ALU.srcs/sources_1/ip/ila/sim/ila.vhd" \
-"../../../../ALU.srcs/sources_1/imports/new/ALU.vhd" \
+"../../../../ALU.srcs/sources_1/imports/sources_1/new/ALU_v1.1.vhd" \
 "../../../../ALU.srcs/sources_1/imports/new/TOP.vhd" \
+"../../../../ALU.srcs/sources_1/imports/sources_1/imports/new/eight_bit_adder.vhd" \
+"../../../../ALU.srcs/sources_1/imports/sources_1/imports/new/four_to_one_MUX.vhd" \
+"../../../../ALU.srcs/sources_1/imports/sources_1/imports/new/two_to_one_MUX.vhd" \
 "../../../../ALU.srcs/sim_1/imports/new/TOP_tb.vhd" \
 
 # Do not sort compile order

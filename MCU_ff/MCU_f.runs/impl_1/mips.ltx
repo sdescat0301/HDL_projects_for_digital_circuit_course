@@ -1,0 +1,538 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "50000000"
+                    },
+                    {
+                        "type": "ILA_V3",
+                        "name": "ila_in",
+                        "spec": "labtools_ila_v6",
+                        "ipName": "ila",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "990E3B44C19A59F2BF487378AEE66316",
+                        "pins": [
+                            {
+                                "name": "probe0",
+                                "id": 0,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "clk_ila",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe1",
+                                "id": 1,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "reset_ila",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe2",
+                                "id": 2,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "pcS",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "pcS[31]"
+                                            },
+                                            {
+                                                "name": "pcS[30]"
+                                            },
+                                            {
+                                                "name": "pcS[29]"
+                                            },
+                                            {
+                                                "name": "pcS[28]"
+                                            },
+                                            {
+                                                "name": "pcS[27]"
+                                            },
+                                            {
+                                                "name": "pcS[26]"
+                                            },
+                                            {
+                                                "name": "pcS[25]"
+                                            },
+                                            {
+                                                "name": "pcS[24]"
+                                            },
+                                            {
+                                                "name": "pcS[23]"
+                                            },
+                                            {
+                                                "name": "pcS[22]"
+                                            },
+                                            {
+                                                "name": "pcS[21]"
+                                            },
+                                            {
+                                                "name": "pcS[20]"
+                                            },
+                                            {
+                                                "name": "pcS[19]"
+                                            },
+                                            {
+                                                "name": "pcS[18]"
+                                            },
+                                            {
+                                                "name": "pcS[17]"
+                                            },
+                                            {
+                                                "name": "pcS[16]"
+                                            },
+                                            {
+                                                "name": "pcS[15]"
+                                            },
+                                            {
+                                                "name": "pcS[14]"
+                                            },
+                                            {
+                                                "name": "pcS[13]"
+                                            },
+                                            {
+                                                "name": "pcS[12]"
+                                            },
+                                            {
+                                                "name": "pcS[11]"
+                                            },
+                                            {
+                                                "name": "pcS[10]"
+                                            },
+                                            {
+                                                "name": "pcS[9]"
+                                            },
+                                            {
+                                                "name": "pcS[8]"
+                                            },
+                                            {
+                                                "name": "pcS[7]"
+                                            },
+                                            {
+                                                "name": "pcS[6]"
+                                            },
+                                            {
+                                                "name": "pcS[5]"
+                                            },
+                                            {
+                                                "name": "pcS[4]"
+                                            },
+                                            {
+                                                "name": "pcS[3]"
+                                            },
+                                            {
+                                                "name": "pcS[2]"
+                                            },
+                                            {
+                                                "name": "pcS[1]"
+                                            },
+                                            {
+                                                "name": "pcS[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe3",
+                                "id": 3,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "memwrite_ila",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe4",
+                                "id": 4,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "writedataS",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "writedataS[31]"
+                                            },
+                                            {
+                                                "name": "writedataS[30]"
+                                            },
+                                            {
+                                                "name": "writedataS[29]"
+                                            },
+                                            {
+                                                "name": "writedataS[28]"
+                                            },
+                                            {
+                                                "name": "writedataS[27]"
+                                            },
+                                            {
+                                                "name": "writedataS[26]"
+                                            },
+                                            {
+                                                "name": "writedataS[25]"
+                                            },
+                                            {
+                                                "name": "writedataS[24]"
+                                            },
+                                            {
+                                                "name": "writedataS[23]"
+                                            },
+                                            {
+                                                "name": "writedataS[22]"
+                                            },
+                                            {
+                                                "name": "writedataS[21]"
+                                            },
+                                            {
+                                                "name": "writedataS[20]"
+                                            },
+                                            {
+                                                "name": "writedataS[19]"
+                                            },
+                                            {
+                                                "name": "writedataS[18]"
+                                            },
+                                            {
+                                                "name": "writedataS[17]"
+                                            },
+                                            {
+                                                "name": "writedataS[16]"
+                                            },
+                                            {
+                                                "name": "writedataS[15]"
+                                            },
+                                            {
+                                                "name": "writedataS[14]"
+                                            },
+                                            {
+                                                "name": "writedataS[13]"
+                                            },
+                                            {
+                                                "name": "writedataS[12]"
+                                            },
+                                            {
+                                                "name": "writedataS[11]"
+                                            },
+                                            {
+                                                "name": "writedataS[10]"
+                                            },
+                                            {
+                                                "name": "writedataS[9]"
+                                            },
+                                            {
+                                                "name": "writedataS[8]"
+                                            },
+                                            {
+                                                "name": "writedataS[7]"
+                                            },
+                                            {
+                                                "name": "writedataS[6]"
+                                            },
+                                            {
+                                                "name": "writedataS[5]"
+                                            },
+                                            {
+                                                "name": "writedataS[4]"
+                                            },
+                                            {
+                                                "name": "writedataS[3]"
+                                            },
+                                            {
+                                                "name": "writedataS[2]"
+                                            },
+                                            {
+                                                "name": "writedataS[1]"
+                                            },
+                                            {
+                                                "name": "writedataS[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe5",
+                                "id": 5,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "aluoutS",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "aluoutS[31]"
+                                            },
+                                            {
+                                                "name": "aluoutS[30]"
+                                            },
+                                            {
+                                                "name": "aluoutS[29]"
+                                            },
+                                            {
+                                                "name": "aluoutS[28]"
+                                            },
+                                            {
+                                                "name": "aluoutS[27]"
+                                            },
+                                            {
+                                                "name": "aluoutS[26]"
+                                            },
+                                            {
+                                                "name": "aluoutS[25]"
+                                            },
+                                            {
+                                                "name": "aluoutS[24]"
+                                            },
+                                            {
+                                                "name": "aluoutS[23]"
+                                            },
+                                            {
+                                                "name": "aluoutS[22]"
+                                            },
+                                            {
+                                                "name": "aluoutS[21]"
+                                            },
+                                            {
+                                                "name": "aluoutS[20]"
+                                            },
+                                            {
+                                                "name": "aluoutS[19]"
+                                            },
+                                            {
+                                                "name": "aluoutS[18]"
+                                            },
+                                            {
+                                                "name": "aluoutS[17]"
+                                            },
+                                            {
+                                                "name": "aluoutS[16]"
+                                            },
+                                            {
+                                                "name": "aluoutS[15]"
+                                            },
+                                            {
+                                                "name": "aluoutS[14]"
+                                            },
+                                            {
+                                                "name": "aluoutS[13]"
+                                            },
+                                            {
+                                                "name": "aluoutS[12]"
+                                            },
+                                            {
+                                                "name": "aluoutS[11]"
+                                            },
+                                            {
+                                                "name": "aluoutS[10]"
+                                            },
+                                            {
+                                                "name": "aluoutS[9]"
+                                            },
+                                            {
+                                                "name": "aluoutS[8]"
+                                            },
+                                            {
+                                                "name": "aluoutS[7]"
+                                            },
+                                            {
+                                                "name": "aluoutS[6]"
+                                            },
+                                            {
+                                                "name": "aluoutS[5]"
+                                            },
+                                            {
+                                                "name": "aluoutS[4]"
+                                            },
+                                            {
+                                                "name": "aluoutS[3]"
+                                            },
+                                            {
+                                                "name": "aluoutS[2]"
+                                            },
+                                            {
+                                                "name": "aluoutS[1]"
+                                            },
+                                            {
+                                                "name": "aluoutS[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe6",
+                                "id": 6,
+                                "type": "DATA_TRIGGER",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "readdataS",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "readdataS[31]"
+                                            },
+                                            {
+                                                "name": "readdataS[30]"
+                                            },
+                                            {
+                                                "name": "readdataS[29]"
+                                            },
+                                            {
+                                                "name": "readdataS[28]"
+                                            },
+                                            {
+                                                "name": "readdataS[27]"
+                                            },
+                                            {
+                                                "name": "readdataS[26]"
+                                            },
+                                            {
+                                                "name": "readdataS[25]"
+                                            },
+                                            {
+                                                "name": "readdataS[24]"
+                                            },
+                                            {
+                                                "name": "readdataS[23]"
+                                            },
+                                            {
+                                                "name": "readdataS[22]"
+                                            },
+                                            {
+                                                "name": "readdataS[21]"
+                                            },
+                                            {
+                                                "name": "readdataS[20]"
+                                            },
+                                            {
+                                                "name": "readdataS[19]"
+                                            },
+                                            {
+                                                "name": "readdataS[18]"
+                                            },
+                                            {
+                                                "name": "readdataS[17]"
+                                            },
+                                            {
+                                                "name": "readdataS[16]"
+                                            },
+                                            {
+                                                "name": "readdataS[15]"
+                                            },
+                                            {
+                                                "name": "readdataS[14]"
+                                            },
+                                            {
+                                                "name": "readdataS[13]"
+                                            },
+                                            {
+                                                "name": "readdataS[12]"
+                                            },
+                                            {
+                                                "name": "readdataS[11]"
+                                            },
+                                            {
+                                                "name": "readdataS[10]"
+                                            },
+                                            {
+                                                "name": "readdataS[9]"
+                                            },
+                                            {
+                                                "name": "readdataS[8]"
+                                            },
+                                            {
+                                                "name": "readdataS[7]"
+                                            },
+                                            {
+                                                "name": "readdataS[6]"
+                                            },
+                                            {
+                                                "name": "readdataS[5]"
+                                            },
+                                            {
+                                                "name": "readdataS[4]"
+                                            },
+                                            {
+                                                "name": "readdataS[3]"
+                                            },
+                                            {
+                                                "name": "readdataS[2]"
+                                            },
+                                            {
+                                                "name": "readdataS[1]"
+                                            },
+                                            {
+                                                "name": "readdataS[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

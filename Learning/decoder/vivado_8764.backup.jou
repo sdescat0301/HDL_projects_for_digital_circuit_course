@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri May 14 10:07:25 2021
+# Process ID: 8764
+# Current directory: E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/decoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11976 E:\Xilinx_project\HDL_projects_for_digital_circuit_course\Learning\decoder\decoder.xpr
+# Log file: E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/decoder/vivado.log
+# Journal file: E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/decoder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Xilinx_project/HDL_projects_for_digital_circuit_course/Learning/decoder/decoder.xpr
+update_compile_order -fileset sources_1

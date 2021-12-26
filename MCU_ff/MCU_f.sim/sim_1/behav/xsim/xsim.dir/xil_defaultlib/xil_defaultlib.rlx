@@ -1,0 +1,21 @@
+0.7
+v2020.2.2
+Feb  9 2021
+06:17:39
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.gen/sources_1/ip/RAM/RAM_sim_netlist.vhdl,1625776463,vhdl,,,,ram;ram_dist_mem_gen_v8_0_13;ram_dist_mem_gen_v8_0_13_synth;ram_spram,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.gen/sources_1/ip/ROM/ROM_sim_netlist.vhdl,1625770320,vhdl,,,,rom;rom_dist_mem_gen_v8_0_13;rom_dist_mem_gen_v8_0_13_rom;rom_dist_mem_gen_v8_0_13_synth,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.gen/sources_1/ip/clk_wiz/clk_wiz_sim_netlist.vhdl,1625797355,vhdl,,,,clk_wiz;clk_wiz_clk_wiz_clk_wiz,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.gen/sources_1/ip/ila/sim/ila.vhd,1625770881,vhdl,,,,ila,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sim_1/new/sim_tb.vhd,1625791863,vhdl,,,,sim_tb,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/adder_simple.vhd,1625762937,vhdl,,,,adder_simple,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/alu.vhd,1625797769,vhdl,,,,alu,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/aludec.vhd,1625763375,vhdl,,,,aludec,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/controller.vhd,1625768715,vhdl,,,,controller,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/datapath.vhd,1625795600,vhdl,,,,datapath,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/flopr.vhd,1625795868,vhdl,,,,flopr,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/maindec.vhd,1625778589,vhdl,,,,maindec,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/mips.vhd,1625796509,vhdl,,,,mips,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/mux2.vhd,1625762880,vhdl,,,,mux2,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/regfile.vhd,1625777903,vhdl,,,,regfile,,,,,,,,
+E:/Xilinx_project/HDL_projects_for_digital_circuit_course/MCU_ff/MCU_f.srcs/sources_1/imports/new/signext.vhd,1625763455,vhdl,,,,signext,,,,,,,,

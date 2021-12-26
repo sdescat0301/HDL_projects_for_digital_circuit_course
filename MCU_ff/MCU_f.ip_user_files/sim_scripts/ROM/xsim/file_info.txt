@@ -1,0 +1,2 @@
+ROM_sim_netlist.vhdl,vhdl,xil_defaultlib,../../../../MCU_f.gen/sources_1/ip/ROM/ROM_sim_netlist.vhdl,
+glbl.v,Verilog,xil_defaultlib,glbl.v

@@ -1,0 +1,2 @@
+ila.vhd,vhdl,xil_defaultlib,../../../../MCU_f.gen/sources_1/ip/ila/sim/ila.vhd,incdir="../../../../MCU_f.gen/sources_1/ip/ila/hdl/verilog"
+glbl.v,Verilog,xil_defaultlib,glbl.v
